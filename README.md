@@ -1,6 +1,7 @@
 # ionic4-app-update
 
 1.ionic start ionic4-app-update
+
 2.ionic cordova platform add android
 
 3.
