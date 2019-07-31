@@ -1,0 +1,7 @@
+{
+  "name": "ionic4-app-update",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
