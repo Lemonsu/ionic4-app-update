@@ -2,7 +2,7 @@
 
 1.新建一个ionic4项目
 
-ionic start ionic4-app-update
+ionic start ionic4-app-update tabs
 
 2.添加android平台
 
