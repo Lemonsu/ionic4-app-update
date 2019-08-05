@@ -62,3 +62,14 @@ b).获取最新版本号，与本地版本号进行比较，不一致，则下�
 
 
 c).如果是IOS的话，需要安装In App Browser插件
+
+    ionic cordova plugin add cordova-plugin-inappbrowser
+
+    npm install @ionic-native/in-app-browser
+
+d).IOS升级，按照https://blog.csdn.net/hnnd123/article/details/88943423，编写plist文件，并部署到服务器
+e).IOS下载安装ipa
+
+    that.inAppBrowser.create("itms-services://?action=download-manifest&amp;url=" + plisturl, '_system');
+
+demo代码地址：https://github.com/Lemonsu/ionic4-app-update
